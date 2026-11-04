@@ -1,0 +1,75 @@
+.clinica-encabezado {
+  background: linear-gradient(135deg, #1e3a8a, #0284c7);
+  color: #ffffff;
+  padding: 1.25rem 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.encabezado-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.logo-marca {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.logo-cruz {
+  width: 38px;
+  height: 38px;
+  background-color: #ffffff;
+  color: #0284c7;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.clinica-titulo {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.clinica-subtitulo {
+  margin: 0.15rem 0 0 0;
+  font-size: 0.85rem;
+  color: #bae6fd;
+}
+
+.encabezado-info {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.82rem;
+}
+
+.info-label {
+  font-weight: 500;
+  color: #e0f2fe;
+}
+
+.info-valor {
+  font-weight: 600;
+  text-transform: capitalize;
+}

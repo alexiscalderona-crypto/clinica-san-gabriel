@@ -1,0 +1,59 @@
+.tarjeta-medico {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjeta-medico:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-color: #0284c7;
+}
+
+.tarjeta-medico-imagen-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: #e2e8f0;
+}
+
+.tarjeta-medico-imagen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tarjeta-medico-badge {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(2, 132, 199, 0.9);
+  color: #ffffff;
+  padding: 0.25rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  backdrop-filter: blur(4px);
+}
+
+.tarjeta-medico-cuerpo {
+  padding: 1.2rem;
+  flex: 1;
+}
+
+.tarjeta-medico-nombre {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  color: #0f172a;
+}
+
+.tarjeta-medico-cmp {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #64748b;
+}

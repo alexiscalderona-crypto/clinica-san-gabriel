@@ -1,0 +1,32 @@
+.pagina-citas {
+  display: flex;
+  flex-direction: column;
+}
+
+.citas-cabecera {
+  margin-bottom: 1.5rem;
+}
+
+.citas-cabecera h2 {
+  font-size: 1.6rem;
+  color: #0f172a;
+  margin: 0 0 0.35rem 0;
+}
+
+.citas-cabecera p {
+  color: #64748b;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.grid-citas-gestion {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 1.5rem;
+}
+
+@media (max-width: 860px) {
+  .grid-citas-gestion {
+    grid-template-columns: 1fr;
+  }
+}

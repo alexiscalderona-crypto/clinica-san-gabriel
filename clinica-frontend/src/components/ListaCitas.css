@@ -1,0 +1,32 @@
+.lista-citas-container {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-seccion-citas {
+  margin: 0 0 1rem 0;
+  color: #0f172a;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #f1f5f9;
+  padding-bottom: 0.5rem;
+}
+
+.lista-citas-scroll {
+  max-height: 520px;
+  overflow-y: auto;
+  padding-right: 0.25rem;
+}
+
+.lista-citas-vacia {
+  background: #ffffff;
+  border: 1px dashed #cbd5e1;
+  border-radius: 10px;
+  padding: 2.5rem;
+  text-align: center;
+  color: #64748b;
+}

@@ -1,0 +1,125 @@
+.detalle-cita-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.detalle-cita-placeholder {
+  background: #ffffff;
+  border: 1px dashed #cbd5e1;
+  border-radius: 10px;
+  padding: 3rem 2rem;
+  text-align: center;
+  color: #64748b;
+}
+
+.detalle-cita-placeholder h3 {
+  color: #334155;
+  margin-top: 0;
+}
+
+.detalle-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #f1f5f9;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.detalle-header h3 {
+  margin: 0;
+  color: #0f172a;
+  font-size: 1.25rem;
+}
+
+.badge-estado {
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.3rem 0.75rem;
+  border-radius: 9999px;
+  text-transform: capitalize;
+}
+
+.estado-pendiente {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.estado-confirmada {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.estado-atendida {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.estado-cancelada {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.detalle-cuerpo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.detalle-fila {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #f8fafc;
+}
+
+.detalle-fila.vertical {
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.detalle-etiqueta {
+  font-weight: 600;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+.detalle-valor {
+  font-weight: 600;
+  color: #1e293b;
+  font-size: 0.92rem;
+}
+
+.detalle-motivo {
+  margin: 0;
+  background: #f8fafc;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+  color: #334155;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.detalle-acciones {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 2px solid #f1f5f9;
+}
+
+.detalle-acciones h4 {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.95rem;
+  color: #334155;
+}
+
+.botones-acciones-estado {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}

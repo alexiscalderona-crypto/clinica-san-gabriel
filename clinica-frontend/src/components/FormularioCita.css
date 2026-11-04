@@ -1,0 +1,40 @@
+.card-formulario-cita {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1.5rem;
+}
+
+.titulo-form-cita {
+  margin: 0 0 1.25rem 0;
+  color: #0f172a;
+  font-size: 1.25rem;
+  border-bottom: 2px solid #f1f5f9;
+  padding-bottom: 0.5rem;
+}
+
+.grupo-input select,
+.grupo-input textarea {
+  padding: 0.6rem 0.85rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 0.92rem;
+  background-color: #ffffff;
+  font-family: inherit;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.grupo-input select:focus,
+.grupo-input textarea:focus {
+  outline: none;
+  border-color: #0284c7;
+  box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+}
+
+.acciones-form-cita {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}

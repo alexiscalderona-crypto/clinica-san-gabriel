@@ -1,0 +1,73 @@
+.item-cita-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  transition: all 0.2s ease;
+  border-left: 4px solid #cbd5e1;
+}
+
+.item-cita-card:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08);
+  border-left-color: #0284c7;
+}
+
+.item-cita-card.seleccionada {
+  border-color: #0284c7;
+  border-left: 4px solid #0284c7;
+  background-color: #f0f9ff;
+}
+
+.item-cita-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.item-cita-id {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #1e293b;
+}
+
+.estado-tag {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  text-transform: capitalize;
+}
+
+.estado-tag-pendiente {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.estado-tag-confirmada {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.estado-tag-atendida {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.estado-tag-cancelada {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.item-cita-info p {
+  margin: 0.25rem 0;
+  font-size: 0.88rem;
+  color: #475569;
+}
+
+.item-cita-acciones {
+  margin-top: 0.75rem;
+  display: flex;
+  justify-content: flex-end;
+}
